@@ -29,12 +29,11 @@
 
 .category-button.active,
 .work-select.active {
-  background-color: #f4dd8f; /* Change to your desired active color */
-  color: black; /* Change text color for better contrast */
-  border: 1px solid black; /* Optional: add a border for better visibility */
+  background-color: #f4dd8f;
+  color: black; 
+  border: 1px solid black; 
   scale: 1.1;
 }
-
 
 .mil-portfolio-item {
   display: block;
@@ -67,4 +66,3 @@
 .mil-portfolio-item .mil-cover-frame.mil-vert {
   padding-bottom: 115%;
 }
-
