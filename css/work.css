@@ -1,0 +1,70 @@
+.buttons-category {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  margin-top: -5rem;
+  padding: 1rem;
+}
+
+.buttons-category button,
+.buttons-category select {
+  cursor: pointer;
+  padding: 0.4rem 1rem;
+  border-radius: 0.3rem;
+  border: 1px solid #f4dd8f;
+  background: #000;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+
+.buttons-category button:hover,
+.buttons-category select:hover {
+  background: #fff;
+  color: #000;
+  border-color: #000;
+}
+
+.category-button.active,
+.work-select.active {
+  background-color: #f4dd8f; /* Change to your desired active color */
+  color: black; /* Change text color for better contrast */
+  border: 1px solid black; /* Optional: add a border for better visibility */
+  scale: 1.1;
+}
+
+
+.mil-portfolio-item {
+  display: block;
+  border: 1px solid rgba(82, 82, 82, 0.2);
+  border-radius: 5rem 1rem / 1rem 5rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.mil-portfolio-item .mil-cover-frame {
+  position: relative;
+  overflow: hidden;
+}
+.mil-portfolio-item .mil-cover-frame .mil-cover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.mil-portfolio-item .mil-cover-frame .mil-cover img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+  object-fit: contain;
+  -webkit-transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+  transition: 0.4s cubic-bezier(0, 0, 0.3642, 1);
+}
+
+.mil-portfolio-item .mil-cover-frame.mil-vert {
+  padding-bottom: 115%;
+}
+
