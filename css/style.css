@@ -26,7 +26,7 @@ p.s. I am available for Freelance hire (UI design, web development). email: mill
     - scrollbar
     - frame
     - menu button
-    - menu 
+    - menu
     - banner
     - circle text
     - lines
@@ -1903,7 +1903,7 @@ circle text
 ------------------------------------------- */
 .mil-circle-text {
   position: absolute;
-  right: 0;
+  right: -15rem;
   bottom: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1914,14 +1914,14 @@ circle text
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
 }
 .mil-circle-text .mil-ct-svg {
   -webkit-transform: scale(2);
   transform: scale(2);
-  width: 140px;
-  height: 140px;
+  width: 100px;
+  height: 100px;
 }
 .mil-circle-text .mil-ct-svg text {
   fill: rgba(255, 255, 255, 0.4);
