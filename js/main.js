@@ -1,3 +1,13 @@
+document.querySelectorAll('a.social-icon').forEach(link => {
+    link.addEventListener('click', (event) => {
+        event.preventDefault(); // Prevent default navigation
+        const url = link.getAttribute('href'); // Get the href attribute
+        window.open(url, '_blank'); // Open in a new tab
+    });
+});
+
+
+
 $(function () {
   "use strict";
 
@@ -33,7 +43,7 @@ $(function () {
   /***************************
 
     preloader
-    
+
     ***************************/
 
   var timeline = gsap.timeline();
